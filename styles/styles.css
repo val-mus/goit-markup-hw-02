@@ -1,0 +1,45 @@
+
+/* ЦВЕТА */
+/* Цвет фона герой + подвал #2F303A */
+/* Цвет фона №2 #E5E5E5; */
+/* Цвет фона команда #F5F4FA; */
+/* Основной цвет текста #757575*/
+/* Вторичный цвет текста #212121 */
+/* Цвет акцента #2196F3 */
+/* Белый #FFFFFF */
+/* Цвет линк подвал  rgba(255, 255, 255, 0.6)*/
+/* Линк хедер #757575 */
+.list{
+    list-style: none;
+}
+
+body{
+    background-color: #ffffff;
+    color:  #757575;
+}
+.header-logo{
+    color: #2196F3;
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+.header-logo > span{
+    color: #212121;
+}
+
+/* Site nav */
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link > span{
+    color: #2196F3
+}
+
